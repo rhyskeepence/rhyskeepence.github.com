@@ -1,1 +1,66 @@
-rhysk
+==================================================================
+https://keybase.io/rhysk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.rhyskeepence.com
+  * I am rhysk (https://keybase.io/rhysk) on keybase.
+  * I have a public key with fingerprint 4690 25C8 D371 86B2 A7BB  309A 20D2 798D 40AB 4BCE
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "469025c8d37186b2a7bb309a20d2798d40ab4bce",
+            "host": "keybase.io",
+            "key_id": "20d2798d40ab4bce",
+            "uid": "5f7a1af1bd390c314e8a8020a36db800",
+            "username": "rhysk"
+        },
+        "service": {
+            "hostname": "www.rhyskeepence.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1415407327,
+    "expire_in": 157680000,
+    "prev": "10889a9735dd0301e0bc21da4c9ed6f01d854c248ef40123f143e3ed8f88cc4b",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.3
+Comment: https://keybase.io/crypto
+
+yMHvAnicbZFrSBRRFIBXKzVLtH5ooZBNEWHLduexOzNLZWhUIPSwB2ab28zcO7uD
+ubO7M65um/2ICArbHiBmqZj4IKUMrNBE2jQpzSgjpPojak/6kRCKIWl3FvvXr8s9
+5zvfOYfzLGmJKTHmQ09ofrz2fX7My8hMqenwCXksRIgqDBL2EFGMoo+seFzI7/Ur
+Hp2wE4yNB5RV4iDNkpxNpARWFGnACxSAFMtzkAGCyIgSIsyEW9WMCqwRBQ1ZFBXH
+8MepQBz9D18aTVhlViAFmRQhzQOJJhnECRyggEDboMgBYIAa8nuEEoRpvzuoFRMV
+ZgKHAgrW4IGNvovpsrIySxRByIs8ErJIagkWeP2qrkrqKUy4dd1rNwR60ButQKJz
+0eUUFQ/Ey+OCAPJriuoh7CQmJV0x5CRDWhnA0hRrJlC5V/Ejp2IQVtaGxwTAaIMC
+WEkCjuMFnqWtEAIakAiIEkVCgZF4BG0yICFnZSSK4ZDMAJKiZZKhEY0gJ3OcJDEi
+YWzn86iEncZjCi6s1BSXR9BL/Yio6Is4lppiEk1xy2KN85kSl6f8O2o4NX5+ffeT
+h2ZpkIdZfcPCxo8ZTFHyK96+d9+q6R87wrbVw9mZ6VPbMt75qN/uydiWx5eyc389
+3T61qbr6aHfqyp1Za6C257lDzZm+rKdJetKCY8PbzcdbK5s6upIPbj3Z4x4JPRr0
+tRwwD8X/Odd4tuHGp7zuwv5b2Snp1/sn2IXhmz/HtjRdrQl/icyOiim9t7sOhfMm
+1dFvp+u55vMDfPDuSJ0zYe5MXWe+JjqqZsoL6IsdRSv6BiwPGu8HWkfac9Ydu7K7
+0tWbWdM18T1tvC090l5VYmnIf1H/+sKd/b0VR4bacjfBTrLA55yfy6wpDNa2mpv5
+awmzg5/XenfFfb335i8kBxxB
+=IYyj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rhysk
+
+==================================================================
+
