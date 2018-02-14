@@ -25,9 +25,25 @@ h1, h2, h3, h4, h5 {
 }
 
 body > header {
-    margin: 5rem 0 0 20rem;
+    margin: 2rem 0 0 20rem;
     min-width: 40rem;
     max-width: 60rem;
+}
+
+body > nav {
+    margin: 2rem;
+}
+
+.button-link {
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 2rem
+}
+
+.button-link:hover {
+    text-decoration: none;
+    background: #2980b9;
+    color: #ffffff;
 }
 
 .contact-item {
