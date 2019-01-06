@@ -47,7 +47,7 @@
     <section>
       <h2>Professional Summary</h2>
       <div>
-        <p>Over 15 years experience in a variety of industries, developing distributed systems and web
+        <p>Over 18 years experience in a variety of industries, developing distributed systems and web
           applications. I am passionate about improving the way that software is developed, with a particular
           focus on simplicity and quality. I have plenty of experience of delivering high-quality applications
           which have been developed in a sustainable manner.</p>
@@ -55,9 +55,9 @@
           in starting small, demoing & releasing often, and iterating based on user feedback.</p>
         <p>In 2008 I began learning Scala, in 2009 I used it on a small production application, and at Sky
           I introduced it to the team, switching all new development to Scala. In recent years I have enjoyed
-          learning functional programming in Haskell. Through this journey I have found that fully utilising
+          learning pure functional programming in Haskell. Through this journey I have found that fully utilising
           the type system results in clearly documented code, that is simple to test and easy to reason about.
-          At Deutsche Bank I championed Haskell and Elm for two production applications, which has been well
+          At Deutsche Bank I championed Haskell and Elm for two production applications, which was well
           received within the team.</p>
       </div>
     </section>
@@ -66,9 +66,10 @@
       <h2>Key Skills</h2>
       <div>
         <ul>
+          <li>Functional Programming</li>
+          <li>Continuous Delivery</li>
           <li>XP/Agile</li>
           <li>Pair Programming</li>
-          <li>Functional Programming</li>
           <li>Scala</li>
           <li>ScalaJS</li>
           <li>React</li>
@@ -76,7 +77,6 @@
           <li>Elm</li>
           <li>CSS3</li>
           <li>SQL</li>
-          <li>Continuous Delivery</li>
         </ul>
       </div>
     </section>
@@ -103,20 +103,34 @@
     <section>
       <h2>Experience</h2>
       <div>
+          <div class="experience-item">
+            <header>
+              <div class="title-and-company">
+                <div class="title">Senior Scala Developer&mdash;Contract</div>
+                <div class="company">Citigroup</div>
+              </div>
+              <time>03.2018-present</time>
+            </header>
+            <p>We are replacing a excel pricing spreadsheet with typelevel scala, mongodb, reactjs, kubernetes, etc.</p>
+            <p>In addition, we will automate documentation generation and execution.</p>
+          </div>
+
         <div class="experience-item">
           <header>
             <div class="title-and-company">
               <div class="title">Senior Scala Developer&mdash;Contract</div>
               <div class="company">Deutsche Bank</div>
             </div>
-            <time>09.2013 - present</time>
+            <time>09.2013 - 03.2018</time>
           </header>
-          <p>I am currently working on a project to address an audit point within structured finance. Strand is a front-office
-            application for the lifecycle management of structured transactions that consist of multiple bookings,
-            some of which carry non-standard risks.</p>
-          <p>The project consists of a small team of developers, responsible for talking to senior members of the business,
+          <p>Developed a front-office application for the lifecycle management of trades within Structured Finance. The project consisted 
+            of a small team of developers, responsible for talking to senior members of the business,
             building the system to capture the transactions, and supporting it in production. The project has been a large success,
-            and we have a good relationship with front and middle office.
+            and we had a good relationship with front and middle office.
+          </p>
+          <p>On this application I championed a number of technologies within the team. The front-end was a single page app 
+            written in ScalaJS (on top of React). This allowed us to shared data types, safely refactor across the entire stack, 
+            and write some pretty amazing abstractions to scrap boilerplate code. The server was written in functional scala using Typelevel libraries.
           </p>
           <p>I was also on a team tasked to develop a workflow system for rates
             exotics sales and trading. We began with a small prototype, which was shown to traders and
@@ -133,46 +147,41 @@
           </header>
           <p>
             Part of a small team to rewrite an application to communicate with telephone switches. I was the
-            main driver behind the team adopting Scala. In my own time I wrote a port our chosen acceptance
-            testing framework to run with Specs2 tests, which I maintain on Github and has a small number of
+            main driver behind the team adopting Scala. I wrote a port our chosen acceptance
+            testing framework to run with Specs2 tests, which I maintain on Github and has a number of
             users outside of Sky.</p>
-          <p>I lead the development of rewriting an address matching application, using Lucene, Scala, Scalaz,
+          <p>I also lead the development of rewriting an address matching application, using Lucene, Scala, Scalaz,
             Dispatch and Spray, which was delivered ahead of all estimates, despite most of the team having
             to come up to speed on Scala. The application is written in a pure functional style and has no
             exceptions, no 'if' statements and had only one small bug once going live. It has a full set of
             automated tests and can be deployed to production in minutes.</p>
-          <p>In my free time I wrote a JMX statistics collection and dashboard monitoring system (Scala,
-            Liftweb) for 30+ applications. This has prevented problems in production on numerous occasions,
-            and is used by support, developers and managing directors.</p>
         </div>
 
         <div class="experience-item">
           <header>
             <div class="title-and-company">
-              <div class="title">Agile Software Developer&mdash;Contract</div>
+              <div class="title">Java Software Developer&mdash;Contract</div>
               <div class="company">Wiley Online Library</div>
             </div>
             <time>07.2009 - 05.2010</time>
           </header>
           <p>
-            A large, 30 developer project, developing an online library. Much of the revenue for the business
-            is based on usage statistics to various pieces of content, therefore timely and accurate statistics
-            are important. I was put on a team of six developers, working on the reporting subsystem of the
-            website. Raw usage information was stored in a distributed data grid, analysed in various ways,
-            and aggregated in multiple dimensions. Because the system is asynchronous and distributed, testing
-            it comprehensively posed a challenge to the team, so my experience in this area proved useful. </p>
+            Developing the reporting tools for Wiley's online library. Billing
+            is based on aggregated usage statistics to various pieces of content, therefore timely and accurate statistics
+            are important. We collected, normalised and stored access information in a distributed data grid,
+            then aggregated in multiple dimensions. Because the system was asynchronous and distributed, testing
+            it comprehensively posed a challenge to the team, so my experience in this area proved useful.</p>
         </div>
 
         <div class="experience-item">
           <header>
             <div class="title-and-company">
-              <div class="title">Agile Software Developer&mdash;Contract</div>
+              <div class="title">Java Software Developer&mdash;Contract</div>
               <div class="company">BSKYB</div>
             </div>
             <time>09.2007 - 12.2008</time>
           </header>
-          <p>I was contracted to develop a telecommunications provisioning system for Sky Talk. The team’s primary role was to develop a replacement to the existing system, written in Oracle PL/SQL, which was scaling poorly with increased subscribers. Rather than completely discard the existing system, we designed the new system in such a way that provisioning events would be routed through the existing workflow system until the replacement workflow had been developed. Each bi-weekly deployment contained more workflows, until the existing system was no longer used. This allowed us to deploy very early in the project, gaining rapid feedback and allowing the business to quickly see return on their investment.</p>
-          <p>I was offered a contract renewal, however I left to travel for six months.</p>
+          <p>I was contracted replace a telephone provisioning system, written in Oracle PL/SQL, that was scaling poorly with increased subscribers. Rather than completely discard the existing system, we designed the new system in such a way that provisioning events would be routed through the existing workflow system until the replacement workflow had been developed. This allowed us to deploy very early in the project, gaining rapid feedback and allowing the business to quickly see return on their investment.</p>
         </div>
 
         <div class="experience-item">
@@ -183,7 +192,8 @@
             </div>
             <time>03.2006 - 06.2007</time>
           </header>
-          <p>Worked in a 100% agile development team on a Java based financial document rendering system. Our team pioneered the use of XP development processes within the bank. Among other things, we developed strictly in pairs, enjoyed close collaboration with system architects/stakeholders/testers, had full test coverage, and continuously improved our process. This approach was highly successful - to the point that on numerous occasions, we were asked to talk to other development teams to promote agile practices. Furthermore, as a result of this experience, I was invited to present at the Agile 2007 Conference in Washington DC.</p>
+          <p>Worked in a 100% agile development team on a document rendering system. 
+            Our team pioneered the use of XP development processes within the bank. Among other things, we developed strictly in pairs, enjoyed close collaboration with system architects/stakeholders/testers, had full test coverage, and continuously improved our process.</p>
         </div>
 
         <div class="experience-item">
@@ -194,7 +204,6 @@
             </div>
             <time>01.2006 - 03.2006</time>
           </header>
-          <p>A short consulting gig to produce a integration component between an existing Windows application, and a third party Java application.</p>
         </div>
 
         <div class="experience-item">
