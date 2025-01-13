@@ -24,6 +24,10 @@ body {
     .experience-item {
         margin-top: 1.5rem !important;
     }
+
+    .page-break { 
+        page-break-before: always; 
+    }
 }
 
 a {
