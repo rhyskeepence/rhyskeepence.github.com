@@ -12,8 +12,6 @@ body {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 header {
@@ -40,10 +38,6 @@ header::before {
   display: block;
   background: #8a8 url("../images/sa-calobra.jpg");
   background-size: cover;
-  -webkit-transform-origin: center center 0;
-  -webkit-transform: translateZ(-1px) scale(2);
-  transform-origin: center center 0;
-  transform: translateZ(-1px) scale(2);
   z-index: -1;
   min-height: 100vh;
 }
@@ -54,30 +48,5 @@ header * {
   margin: 0;
   padding: 1em 0;
   text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-header nav {
-  background-color: hsla(0, 0%, 100%,0.1);
-}
-
-header a {
-  font-variant: all-small-caps;
-  letter-spacing: 0.2em;
-  font-size: 18px;
-  padding: 0.4em 1em;
-  text-decoration: none;
-  color: #fff;
-}
-
-header a:hover {
-  border-bottom: 0.5em solid;
-}
-
-main {
-  background-color: hsl(60, 10%, 10%);
-  line-height: 1.7;
-  max-width: 32em;
-  padding: 5% calc(50% - 16em) 35%;
-  position: relative;
-  z-index: 2;
+  background-color: hsla(60, 10%, 10%,0.7);
 }
